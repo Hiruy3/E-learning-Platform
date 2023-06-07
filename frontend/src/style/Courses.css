@@ -1,0 +1,32 @@
+.card-title{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: left;
+}
+.Main-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+}
+.text-orange{
+    color: #ff8c00;
+}
+.card-row{
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+}
+@media (max-width: 768px) {
+    .Main-row{
+        flex-direction: column;
+    }
+    .custom-card{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .card-row{
+        padding-top: 0rem;
+        padding-bottom: 0.8rem;
+    }
+}

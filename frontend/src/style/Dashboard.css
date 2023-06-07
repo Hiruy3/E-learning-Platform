@@ -1,0 +1,20 @@
+.card-title{
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: left;
+}
+.Main-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #C4C8CD;
+}
+.dash-card{
+    margin-top:0rem;
+}
+
+@media (max-width: 768px) {
+    .dash-card{
+        margin-top:1rem;
+    }
+}

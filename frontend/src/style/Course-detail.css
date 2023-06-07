@@ -1,0 +1,22 @@
+.course-detail{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+.course-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.bg-orange{
+    background-color:orange; 
+}
+@media (max-width: 768px) {
+    .course-detail{
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    .course-title{
+        font-size: 1rem;
+    }
+}
